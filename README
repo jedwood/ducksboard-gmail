@@ -1,0 +1,5 @@
+No server required- just open a new Google Spreadsheet, apply this script, configure your settings, and set a time-based trigger. 
+
+Google Apps Script will send the data directly to Ducksboard.
+
+Created for the Ducksboard Hackathon, Nov 2011
