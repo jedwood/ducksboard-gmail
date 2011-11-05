@@ -1,3 +1,7 @@
+Public read-only version of my personal inbox: https://public.ducksboard.com/5fNwopLHfIADlzqGQpxd/
+
+("Later" is a Gmail label I'm tracking.)
+
 No server required- just open a new Google Spreadsheet, apply this script, configure your settings, and set a time-based trigger. 
 
 Google Apps Script will send the data directly to Ducksboard.
