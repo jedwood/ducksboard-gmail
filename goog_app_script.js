@@ -5,7 +5,7 @@ function main() {
   var unreadCount = GmailApp.getInboxUnreadCount();
   var starredCount = GmailApp.getMessagesForThreads(GmailApp.getStarredThreads()).length;  
   var sentTodayCount = GmailApp.getMessagesForThreads(GmailApp.search("from:me after:" + today)).length;
-  var receivedTodayCount = GmailApp.getMessagesForThreads(GmailApp.search("to:me after:" + today)).length;
+  var receivedTodayCount = GmailApp.getMessagesForThreads(GmailApp.search("from:(!me) after:" + today)).length;
   
   var unamepass ='API_KEY:ignore';
   var digest = Utilities.base64Encode(unamepass);
